@@ -1,0 +1,151 @@
+@media print{
+    .headerbranchaddress{
+        font-size: 8pt;
+    }
+    .headerimage{
+        margin-bottom: 20px;
+    }
+    body{
+        /*size: 7in 9.25in;*/
+        size: A4;
+        padding-top:0cm;
+        margin: 0mm 16mm 27mm 16mm;
+        font-size: 10pt;
+    }
+    .font12{
+        font-size: 12px;
+    }
+    .thisfooter{
+        margin-top: 20px;
+        page-break-after: always
+    }
+    .subtitle{
+        background: black;
+        background-color: black !important;
+        background-repeat: repeat-x;
+        color: white !important;
+    }
+    .ctitle{
+        font-size: 14pt;
+    }
+    .expandtop10{
+        padding-top:10px;
+    }
+    .ubordered{
+        border-bottom: 1px solid black;
+    }
+    .bottomborder{
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+    .borderbottom{
+        border-bottom:1px solid black;
+    }
+    .leftborder{
+        border-left: 1pt solid black;
+    }
+    .rightborder{
+        border-right: 1pt solid black;
+    }
+    .smallfonts{
+        font-size: 8px;
+    }
+    .thisfooter{
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        margin-top: 20px;
+        page-break-after: always;
+	width:60%;        
+    }
+ /*    .thisfooter{
+        display: block;
+        position: fixed;
+        bottom: 0px;
+    }*/
+    .thisfooter .align-right{
+        text-align: right;
+    }
+    .lastfirstpage{
+        page-break-after: always;
+    }
+    .rightaligned{
+        text-align: right;
+    }
+}
+@media screen{
+    .headerbranchaddress{
+        font-size: 8pt;
+    }
+    .headerimage{
+        margin-bottom: 20px;
+    }
+    body{
+        /*size: 7in 9.25in;*/
+        size: A4;
+        padding-top:1.5cm;
+        margin: 17mm 16mm 27mm 16mm;
+        font-size: 10pt;
+    }
+    .font12{
+        font-size: 12px;
+    }
+    .subtitle{
+        background: black;
+        color: white;
+    }
+    .ctitle{
+        font-size: 14pt;
+    }
+    .expandtop10{
+        padding-top:10px;
+    }
+    .ubordered{
+        border-bottom: 1px solid black;
+    }
+    .bordertop{
+        border-top:1px solid black;
+    }
+    .borderbottom{
+        border-bottom:1px solid black;
+    }
+    .bottomborder{
+        border-bottom: 1px solid black;
+    }
+    .bottomdoubleline1{
+        border-bottom-style: double;
+        border-bottom-width: 2pt;
+        border-bottom-color: black;
+    }
+    .topborder{
+        border-top: 1px solid black;
+    }
+    .leftborder{
+        border-left: 1pt solid black;
+    }
+    .rightborder{
+        border-right: 1pt solid black;
+    }
+    .smallfonts{
+        font-size: 8px;
+    }
+    .font10{
+        font-size: 10px;
+    }
+    .thisfooter{
+        display: block;
+        position: relative;
+        bottom: 0px;
+        margin-top: 20px;
+        page-break-after: always
+    }
+    .thisfooter .align-right{
+        text-align: right;
+    }
+     .lastfirstpage{
+        page-break-after: always;
+    }
+    .rightaligned{
+        text-align: right;
+    }
+}

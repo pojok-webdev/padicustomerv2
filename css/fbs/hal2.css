@@ -1,0 +1,322 @@
+.leftdiv{
+    float: left;
+    width: 48%;
+    padding-left:1%;
+    padding-right:1%;
+}
+.rightdiv{
+    float: left;
+    width: 48%;
+    padding-left:1%;
+    padding-right:1%;
+}
+#logo{
+    margin: 10px;
+}
+#branches{
+    margin: 10px;
+}
+.branch-detail{
+    font-size: 12px;
+}
+.branch-detail p{
+    margin: 0%;
+}
+.branch-name{
+    font-size: 12;
+    font-weight: 600;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#headoffice{
+    padding-left: 10px;
+}
+.subheader1{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.subheader1 p{
+    font-size: 12px;
+}
+.headernote{
+    font-size: 12px;
+}
+#headernotecontent{
+    margin: 0px 10px 0px 10px;
+}
+.bold1{
+    font-weight: bold;
+}
+.categorydiv{
+    float: left;
+    width: 20%;
+    background-color: white;
+}
+#categorylabel{
+    margin-left:10px;
+    font-weight: bold;
+}
+span.categoryoptionlabel {
+    font-size: 12px;
+    font-weight: bold;
+}
+.rowheader1st{
+    background-color: black;
+    color:white;
+}
+.fee{
+    margin-top:10px;
+}
+.feeheader{
+    margin-top: 28%;
+    background-color: black;
+    color:white;
+    font-size:12px;
+}
+.rowheader{
+    margin-top: 10%;
+    background-color: black;
+    color:white;
+}
+.rowheader div{
+    margin-left: 10px;
+}
+.rowheader div span{
+    font-size: 12px;
+    font-weight: bold;
+}
+.rowheaderx{
+    margin-top: 25px;
+    background-color: black;
+    color:white;
+    font-size: 12px;
+}
+.leftfieldbiaya{
+    float: left;
+    width: 10cm;
+    margin-left: 1cm;
+    font-size: 12px;
+}
+.rightfieldbiaya{
+    float: left;
+    width: 10cm;
+    font-size: 12px;
+}
+.leftborder{
+    border-left: 1px black;
+}
+.fieldrowseparator{
+    margin: 0px;
+}
+.vr{
+    float: left;
+    background-color: black;
+    width: 0.5%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+}
+.hr{
+    background-color: black;
+    height: 0pt;
+}
+.serviceheader{
+    width: 21cm;
+}
+.servicedata{
+    top: 6cm;
+    float: left;
+    width:9.9cm;
+    padding-left:0.5cm;
+    font-size:12px;
+    height:20%;
+    border-right:black solid 0.1px;
+}
+.servicedata span{
+    margin-left:0px;
+    padding-right: 1px;
+}
+.servicedata span textarea{
+    margin-right:0px;
+    padding-right: 0px;
+    width: 9cm;
+    border:none;
+}
+.perioddata{
+    top: 6cm;
+    float: left;
+    width:10cm;
+    padding-left:0.5cm;
+    font-size:12px;
+    height:20%;
+}
+.leftfieldpersetujuan{
+    float: left;
+    margin-left:10px;
+}
+.persetujuan{
+    margin-top:0px;
+    background-color: black;
+    color:white;
+}
+.agreement{
+    padding-right:20px;
+    padding-left:15px;
+    font-size: 12px;
+}
+.sign{
+    height: 210px;
+    display: block;
+}
+.sign .leftdiv{
+    font-size: 12px;
+}
+.sign .rightdiv{
+    font-size: 12px;
+}
+.leftsignpart{
+    float: left;
+    width: 50%;
+}
+.rightsignpart{
+    float: left;
+    width: 50%;
+}
+.hasoverline{
+    text-decoration: overline;
+}
+.leftdivsmaller1{
+    text-transform: capitalize;
+    border: 1px;
+    float: left;
+    width: 55%;
+    padding-left:5px;
+}
+.leftdivsmaller2{
+    border: 1px;
+    float: left;
+    width: 20%;
+}
+.leftdivsmaller3{
+    border: 1px;
+    float: left;
+    width: 20%;
+}
+.rightdivsmaller1{
+    border: 1px;
+    float: left;
+    width: 60%;
+    margin:auto;
+    display: table;
+}
+.rightdivsmaller2{
+    border: 1px;
+    float: left;
+    width: 40%;
+    margin:auto;
+    display: table;
+}
+#keteranganinternal{
+    top:1px;
+    padding-left: 5px;
+}
+.hasthinrightborder{
+    border-right: 1px black solid;
+}
+.leftdiv2{
+    width:50%;
+    float:left;
+    height: 10px;
+    display: block;
+}
+.rightdiv2{
+    width:49.9%;
+    float:left;
+    height: 10px;
+    display: block;
+}
+.verticalline{
+    background-color:black;
+    width: 0.1%;
+    float: left;
+    display: block;
+}
+.signy{
+    border-bottom: black solid 0.1px;
+}
+.lonely{
+    border-top: 0px;
+    margin-top: 0px;
+    color: black;
+}
+.salesholder{
+    width: inherit;
+    text-align: center;
+}
+#ttholder{
+    text-decoration: overline;
+    margin: auto;
+    display: table;
+}
+#unholder{
+    margin: auto;
+    display: table;
+}
+.centered{
+    margin:auto;
+    display: table;
+}
+.navigator{
+/*    position: -webkit-sticky;
+    position: sticky;*/
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.mostbottom{
+    height: 160px;
+    display: block;
+    border-bottom: 1px solid black;
+    font-size: 12px;
+}
+.footer{
+    font-size: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#footer{
+    position: absolute;
+    top:29cm;
+    width: 21cm;
+    padding-right: 5px;
+}
+#footer .frightdiv{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.rightside{
+    left:10.5cm;
+}
+.vascheck{
+    float:left;
+    font-size: 11px;
+}
+.kontraklabel{
+    width:30%;
+    float:left;
+}
+.kontrakvalue{
+    width:70%;
+    float:left;
+}
+.signx{
+    font-size: 12px;
+}

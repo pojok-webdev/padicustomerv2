@@ -1,0 +1,31 @@
+tbody tr td{
+    font-family: arial;
+    font-size: 12px;
+}
+.rptanchor:hover{
+    color: red;
+}
+.monthselector:hover{
+    cursor:pointer;
+}
+.subheader{
+    font-weight: bold;
+    background-color: azure;
+}
+.strsemua:hover{
+    cursor:pointer;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.pointer{
+    cursor:pointer;
+}
+.pointer:hover{
+    color:red;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}

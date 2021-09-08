@@ -1,0 +1,238 @@
+#page1{
+    width: 21cm;
+    height: 29.7cm; 
+    padding-top:1cm;
+    padding-bottom:0.5cm;
+}
+#page1 .logo{
+    float: left;
+    width: 49.875%;
+}
+#page1 #headoffice{
+    padding-left: 10px;
+    float: left;
+    width: 49.875%;
+}
+#page1 .formberlangganan{
+    padding-left: 10px;
+    float: left;
+    width: 49.875%;
+}
+#page1 .leftdiv{
+    float: left;
+    width: 49.875%;
+    border-bottom: 1px solid black;
+}
+#page1 .branchaddresses{
+    float: left;
+    width: 49.875%;
+}
+#page1 .noberlangganan{
+    float: left;
+    width: 49.875%;
+    padding-left: 15px;
+}
+#page1 .rightdiv{
+    float: left;
+    width: 49.875%;
+    border-bottom: 1px solid black;
+}
+#page1 .leftborder{
+    border-left: 1px black;
+}
+#page1 #branches{
+    margin: 10px;
+    padding-left: 15px;
+}
+#page1 .hasrightborder{
+    border-right: 1px solid black;
+}
+#page1 .branch-name{
+    font-size: 14;
+    font-weight: 600;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#page1 .branch-detail{
+    font-size: 12px;
+}
+#page1 .branch-detail p{
+    margin: 0%;
+}
+#page1 .headernote{
+    font-size: 14px;
+}
+#page1 #headernotecontent{
+    margin: 0px 10px 0px 10px;
+}
+#page1 .bold1{
+    font-weight: bold;
+}
+#page1 .vr{
+    float: left;
+    background-color: black;
+    width: 0.25%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#page1 .subheader1{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+#page1 .subheader1 p{
+    font-size: 14px;
+}
+#page1 .categorydiv{
+    float: left;
+    width: 20%;
+    background-color: white;
+}
+#page1 #categorylabel{
+    margin-left:10px;
+    font-weight: bold;
+}
+#page1 span.categoryoptionlabel {
+    font-size: 12px;
+    font-weight: bold;
+}
+#page1 .rowheader{
+    margin-top: 5%;
+    background-color: black;
+    color:white;
+}
+#page1 .rowheader div{
+    margin-left: 10px;
+}
+#page1 .rowheader div span{
+    font-size: 12px;
+    font-weight: bold;
+}
+#page1 .rowfield div{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+#page1 .rowfield div span{
+    font-size: 12px;
+}
+#page1 .rowfieldheader{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+#page1 .fieldrowseparator{
+    margin: 0px;
+}
+#page1 .leftfield{
+    float: left;
+    font-size: 12px;
+    width: 20%;
+    margin-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#page1 .pic{
+    font-size: 12px;
+    float: left;
+    width: 75%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    word-break: break-word;
+}
+#page1 .footer{
+    font-size: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#page1 .footer .rightside{
+    left:10.5cm;
+}
+#page1 .accountypeandbilladdress{
+    float: left;
+    width: 49.875%;
+    /*border-bottom: 1px solid black;*/
+}
+#page1 .parafandconfidential{
+    float: left;
+    width: 49.875%;
+    /*border-bottom: 1px solid black;*/
+}
+
+#page1 .clientAddress{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+
+
+#page1 .documentcheck{
+    padding-left:1cm;
+    padding-right: 1cm;
+}
+#page1 .documentitem{
+    float:left;
+    font-size: 11px;
+}
+#page1 .siup{
+    width: 2cm;
+}
+#page1 .npwp{
+    width: 2cm;
+}
+#page1 .sppkp{
+    width: 2cm;
+}
+#page1 .responsible{
+    width: 5cm;
+}
+#page1 .subscriber{
+    width: 3cm;
+}
+#page1 .skuasa{
+    width: 3cm;
+}
+
+
+
+
+#page1 .footer{
+    font-size: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#page1 #footer{
+    position: absolute;
+    top:28.7cm;
+    width: 21cm;
+    padding-right: 5px;
+}
+#page1 .hr{
+    background-color: black;
+    height: 1pt;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#page1 #footer .paraf{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+#page1 #footer .confidential{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+/*
+#page3 #footer{
+    position: absolute;
+    top:88.4cm;
+    width: 21cm;
+    padding-right: 5px;
+}
+*/

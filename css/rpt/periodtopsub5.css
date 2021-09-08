@@ -1,0 +1,104 @@
+.row{
+    width: 700px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#rpt{
+    width: 100%;
+    border: 1px solid black;
+}
+#rpt thead {
+    background-color: black;
+    color: white;
+}
+#rpt tbody tr{
+    margin: 0px 10px 0px 10px;
+}
+#rpt tbody tr:nth-child(odd){
+    background-color: #ece8db;
+}
+#rpt tfoot{
+    background-color: black;
+    color: white;
+}
+#rpt tfoot tr td:nth-child(1){
+    text-align: right;
+    padding: 0 10px 0 0;
+}
+.filter{
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.filter .label{
+    font-size: small;
+    width: 200px;
+    text-align: right;
+    display: inline-block;
+    background-color: transparent;
+    color:black;
+}
+.filter #mainroot{
+    width: 250px;
+    margin: 5px 10px 5px 0px;
+}
+.filter .monthdatepicker{
+    width: 125px;
+}
+.filter2{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.filter2 #cabang{
+    text-align: center;
+}
+#filterbuttons{
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.numeric{
+    text-align: right;
+    padding: 0 10px 0 0;
+}
+.subject{
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-weight: bold;
+    font-size:20px;
+}
+.subject#main{
+    font-size: 20px;
+}
+.subject#sub{
+    font-size: 12px;
+}
+.button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 3px 10px 3px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #ece8db;
+    color: black;
+}
+.button.btn-filter{
+    background-color: rgb(202, 22, 97);
+}
+.button.btn-home{
+    background-color: rgb(139, 202, 22);
+}

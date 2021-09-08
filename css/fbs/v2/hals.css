@@ -1,0 +1,93 @@
+body{
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+/*    margin-bottom: 0.5cm;*/
+    /*box-shadow: 0;*/
+}
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm; 
+  }
+.navigator{
+    position: -webkit-sticky;
+    position: sticky;
+    /*height: 100%;*/
+    width: 280px;
+    /*position: fixed;*/
+    z-index: 1;
+    top: 50%;
+    left: 0;
+    /*background-color:white;*/
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.navigator img:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.font10{
+    font-size: 10px;
+}    
+.font12{
+    font-size: 12px;
+}    
+.font14{
+    font-size: 14px;
+}
+.hasleftline{
+    border-left: black solid 1px;
+}
+.internal-usage{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width:21cm;
+    border-collapse: collapse;
+    font-size:12px;
+}
+.td-internal-usage{
+    width:10.5cm;
+}
+.tr-internal-usage{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.hasleftborder{
+    border-left: 1px solid black;
+}
+.indent1{
+    padding-left: 10px;
+}
+.nested-internal-usage{
+    width:10.5cm;
+    font-size: 12px;
+}
+.td-nested-internal-usage{
+    width: 5.25;
+}
+.centeredx{
+    text-align: center;
+}
+.overline{
+    text-decoration-line: overline;
+}

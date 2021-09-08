@@ -1,0 +1,16 @@
+js/aquarius/links.js
+application/config/database.php
+application/config/config.php
+media/
+documents/
+img/
+/nbproject/private/
+nbproject/
+dokumentasi-padiApp
+sql
+gitobsolete
+restoredatabase.sh
+reminderexecute.dat
+reminderexecute-githubbed.dat
+gitobsolete
+

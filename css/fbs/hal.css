@@ -1,0 +1,211 @@
+.leftdiv{
+    float: left;
+    width: 49.875%;
+}
+.rightdiv{
+    float: left;
+    width: 49.875%;
+}
+.hasrightborder{
+    border-right: 1px solid black;
+}
+.vr{
+    float: left;
+    background-color: black;
+    width: 0.25%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#logo{
+    margin: 10px;
+}
+#branches{
+    margin: 10px;
+}
+.branch-detail{
+    font-size: 12px;
+}
+.branch-detail p{
+    margin: 0%;
+}
+.branch-name{
+    font-size: 14;
+    font-weight: 600;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#headoffice{
+    padding-left: 10px;
+}
+.subheader1{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.subheader1 p{
+    font-size: 14px;
+}
+.headernote{
+    font-size: 14px;
+}
+#headernotecontent{
+    margin: 0px 10px 0px 10px;
+}
+.bold1{
+    font-weight: bold;
+}
+.categorydiv{
+    float: left;
+    width: 20%;
+    background-color: white;
+}
+#categorylabel{
+    margin-left:10px;
+    font-weight: bold;
+}
+span.categoryoptionlabel {
+    font-size: 12px;
+    font-weight: bold;
+}
+.rowheader{
+    margin-top: 5%;
+    background-color: black;
+    color:white;
+}
+.rowheader div{
+    margin-left: 10px;
+}
+.rowheader div span{
+    font-size: 12px;
+    font-weight: bold;
+}
+.rowfield div{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.rowfield div span{
+    font-size: 12px;
+}
+.rowfieldheader{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.rightfield{
+    float: left;
+    width: 70%;
+}
+.leftborder{
+    border-left: 1px black;
+}
+.fieldrowseparator{
+    margin: 0px;
+}
+.hr{
+    background-color: black;
+    height: 0pt;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.footer{
+    font-size: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#footer{
+    position: absolute;
+    top:29cm;
+    width: 21cm;
+    padding-right: 5px;
+}
+#footer .rightdiv{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.rightside{
+    left:10.5cm;
+}
+.leftnumber{
+    float: left;
+    width: 15%;
+}
+.clientAddress{
+    margin-left: 10px;
+}
+.rightafternumber{
+    float: left;
+    width: 85%;
+}
+.navigator{
+/*    position: -webkit-sticky;
+    position: sticky;*/
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.documentcheck{
+    padding-left:1cm;
+    padding-right: 1cm;
+}
+.documentitem{
+    float:left;
+    font-size: 11px;
+}
+.siup{
+    width: 2cm;
+}
+.npwp{
+    width: 2cm;
+}
+.sppkp{
+    width: 2cm;
+}
+.responsible{
+    width: 5cm;
+}
+.subscriber{
+    width: 3cm;
+}
+.skuasa{
+    width: 3cm;
+}
+.leftfield{
+    float: left;
+    font-size: 12px;
+    width: 30%;
+    margin-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pic{
+    font-size: 12px;
+    float: left;
+    width: 65%;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+.font8{
+    font-size: 8px;
+}
+.font12{
+    font-size: 12px;
+}
+.font14{
+    font-size: 14px;
+}
+.font16{
+    font-size: 16px;
+}

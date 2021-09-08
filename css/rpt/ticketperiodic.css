@@ -1,0 +1,111 @@
+.jumbotronx{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#reportsubject{
+    font-weight: bold;
+    font-size: 19px;
+}
+.filter{
+    display: flex;
+}
+label{
+    text-align: right;
+    display: inline-block;
+    margin-right: 10px;
+}
+.filter .btnCategory{
+    vertical-align: middle;
+    display: inline-block;
+    border:none;
+    text-decoration: none;
+    margin: 0 10px 5px 3px;
+}
+.filter .monthdatepicker{
+    border: 0 5px 0 5px;
+}
+#dprevcategory{
+    /*display: flex;
+    flex-direction: column;*/
+    width: 100%;
+}
+.categoryheading{
+    font-weight: bold;
+    background-color: black;
+    color: bisque;
+    text-align: center;
+}
+.categoryfooting{
+    background-color: cadetblue;
+    color:aliceblue;
+    padding-left: 3px;
+}
+.categorylama{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding:0 5px 0 5px;
+    margin-right: 1px;
+}
+.categorybaru{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding:0 5px 0 5px;
+    margin-left: 1px;
+}
+#categorylama .item .version0{
+    float: left;
+    margin-right: 10px;
+}
+#categorybaru .item .version1{
+    float: left;
+    margin-right: 10px;
+}
+.clientname td.tdclientname{
+    padding-right: 0;
+    background-color: darkgrey;
+    color: aliceblue;
+    word-wrap: initial;
+}
+tbody th{
+    word-wrap: initial;
+}
+tr td li{
+    background-color: beige;
+    color: black;
+}
+.row{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    padding: 10px;
+    border: 1px solid black;
+    word-wrap: anywhere;
+}
+.clientname td:nth-child(n+3){
+    background-color: black;
+    color: antiquewhite; 
+}
+.rowname{
+    background-color: goldenrod;
+}
+.clabel{
+    cursor: pointer;
+}
+#stickyfilter{
+    position: -webkit-sticky;
+    position: sticky;
+    /*height: 100%;*/
+    width: 280px;
+    /*position: fixed;*/
+    z-index: 1;
+    top: 50%;
+    left: 0;
+    /*background-color:white;*/
+    overflow-x: hidden;
+    padding-top: 20px;
+}

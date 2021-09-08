@@ -1,0 +1,9 @@
+@page{
+    size:A4 portrait;
+}
+@page :left{
+    margin-left: 3cm;
+}
+@page :right{
+    margin-right: 4cm;
+}

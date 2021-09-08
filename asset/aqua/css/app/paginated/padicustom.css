@@ -1,0 +1,21 @@
+.dataTables_paginate {
+    padding: 5px 5px;
+    text-align: right;
+    float: right;
+}
+.dataTables_paginate a.paginate_disabled_previous, .table-sorting .dataTables_paginate a.paginate_button_disabled, .table-sorting .dataTables_paginate a.paginate_disabled_next {
+    cursor: default;
+    color: #ccc;
+}
+.pageoption{
+    width: 50px;
+}
+.pageoption option{
+    width: 50px;
+}
+#searchbar{
+    margin-top:5px;
+}
+.pageoption{
+    margin-top:5px;
+}

@@ -1,0 +1,50 @@
+$(".fakevalsetterx").click(function(){
+	fake = true;
+	if(fake){
+		$.ajax({
+			url:'/pfbses/getrandomvalues',
+			dataType:'json'
+		})
+		.done(function(res){
+			c = 0;
+			$("#subscribername").val(res.subscribername);
+			$("#subscriberemail").val(res.subscriberemail);
+			$("#subscriberposition").val(res.subscriberposition);
+			$("#subscriberid").val(res.subscriberid);
+			$("#subscriberhp").val(res.subscriberhp);
+			$("#subscriberphone").val(res.subscriberphone);
+			$("#billingname").val(res.billingname);
+			$("#billingemail").val(res.billingemail);
+			$("#billinghp").val(res.billinghp);
+			$("#billingphone").val(res.billingphone);
+			$("#supportname").val(res.supportname);
+			$("#supportemail").val(res.supportemail);
+			$("#supportphone").val(res.supportphone);
+			$("#supporthp").val(res.supporthp);
+			$("#respname").val(res.respname);
+			$("#respemail").val(res.respemail);
+			$("#respposition").val(res.respposition);
+			$("#respid").val(res.respid);
+			$("#respphone").val(res.respphone);
+			$("#resphp").val(res.resphp);
+			$("#admname").val(res.admname);
+			$("#admemail").val(res.admemail);
+			$("#admphone").val(res.admphone);
+			$("#admhp").val(res.admhp);
+			$("#technicianname").val(res.technicianname);
+			$("#technicianemail").val(res.technicianemail);
+			$("#technicianhp").val(res.technicianhp);
+			$("#technicianphone").val(res.technicianphone);
+			$("#siup").val(res.siup);
+			$("#siupaddress").val(res.alamatsiup);
+			$("#npwp").val(res.npwp);
+			$("#npwpaddress").val(res.alamatnpwp);
+			$("#sppkp").val(res.sppkp);
+			$("#sppkpaddress").val(res.alamatsppkp);
+			$("#billaddress").val(res.alamatpenagihan);
+		})
+		.fail(function(err){
+			console.log("Error",err);
+		});
+	}
+});
