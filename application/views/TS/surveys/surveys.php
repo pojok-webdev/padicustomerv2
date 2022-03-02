@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<?php $this->load->view('adm/head'); ?>
+	<link rel="stylesheet" href="/css/aquarius/padiInstallTable.css" />
 	<script type='text/javascript' src='/js/aquarius/TS/surveys/surveys.js'></script>
 	<style type="text/css">
 		.pmenu{

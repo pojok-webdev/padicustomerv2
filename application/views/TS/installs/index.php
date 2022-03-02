@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php $this->load->view('adm/head');?>
+<link rel="stylesheet" href="/css/aquarius/padiInstallTable.css" />
 <script type="text/javascript" src="/js/aquarius/TS/installs/installs.js"></script>
 <body>
     <div class="header">
@@ -21,7 +22,7 @@
         </div>
 		<div class="workplace">
             <div class="row-fluid">
-                <div class="span12">                    
+                <div class="span12">
                     <div class="head clearfix">
                         <div class="isw-grid"></div>
                         <h1>Installs <?php echo $install_status;?></h1>
@@ -67,7 +68,7 @@
 								<?php foreach($objs as $obj){?>
                                 <?php $status = ($obj->status==='2')?' <span class="textred">(dibatalkan)</span>':'';?>
                                 <?php $disabled = ($obj->status==='2')?'disabled="disabled"':'';?>
-                                
+
                                 <tr install_id='<?php echo $obj->id;?>'>
 <td><?php echo $obj->client_id;?></td>
                                     <td><?php echo $obj->name . $status;?></td>
@@ -95,7 +96,7 @@
 												<li class='btnReport2 pointer'>
                                                     <a href="/install_requests/showreport2/<?php echo $obj->id;?>">Report (New PDF version)</a>
                                                 </li>
-											</ul>											
+											</ul>
 										</div>
 									</td>
                                 </tr>
